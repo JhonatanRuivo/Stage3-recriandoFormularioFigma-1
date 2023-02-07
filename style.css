@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    height: 1930px;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 436px;
+    background-color: #535971;
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    gap: 18px;
+}
+h1 {
+    font-family: "Staatliches";
+    font-weight: 400;
+    font-size: 48px;
+}
+p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+form {
+    background-color: #ffffff;
+    position: absolute;
+    width: 750px;
+    height: 1084px;
+    top: 330px;
+    border-radius: 20px 20px 0 0;
+
+    padding: 54px 64px 64px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 30px;
+}
+
+.fieldset-wrapper legend {
+    font-family: "Staatliches";
+    font-weight: 400;
+    font-size: 24px;
+    color: #535971;
+
+    border-bottom: 1px solid #e6e6f0;
+    padding-bottom: 16px;
+    margin-bottom: 36px;
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.input-wrapper-short {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 16px;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 16px;
+    gap: 8px;
+
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4e4958;
+}
+.input-wrapper span {
+    font-size: 12px;
+    line-height: 20px;
+    color: #c1bccc;
+}
+.input-wrapper input {
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #e6e6f0;
+    background-color: #fafafc;
+}
+.first-mentor-date,
+.second-mentor-date {
+    display: flex;
+    gap: 10px;
+}
+.fieldset-wrapper h2 {
+    font-family: "Staatliches";
+    font-weight: 400;
+    font-size: 20px;
+    color: #535971;
+    margin-bottom: 11px;
+}
+.input-wrapper .input-date {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 160px;
+    width: 750px;
+    background-color: #535971;
+    margin-top: 970px;
+    border-radius: 0 0 8px 8px;
+}
+button {
+    background-color: #ff5374;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 608px;
+    height: 56px;
+    cursor: pointer;
+
+    font-family: "Staatliches";
+
+    font-weight: 400;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #ff3059;
+    width: 618px;
+    height: 60px;
+    font-size: 22px;
+}
